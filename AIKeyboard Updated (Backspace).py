@@ -83,7 +83,7 @@ while True:
 				#}
 				## when clicked
 				if l < 30:
-					#{
+					#{To type join index n mid finger
 					keyboard.press(button.text)
 					cv2.rectangle(img, button.pos, (x + w, y + h), (0, 255, 0), cv2.FILLED)
 					cv2.putText(img, button.text, (x + 20, y + 65),cv2.FONT_HERSHEY_PLAIN, 4, (255, 255, 255), 4)
@@ -96,7 +96,7 @@ while True:
 				
 	 			
 					if a < 30:
-						#{
+						#{To backspace join thumb n mid finger
 						keyboard.press(Key.backspace)
 						cv2.rectangle(img, button.pos, (x + w, y + h), (0, 255, 0), cv2.FILLED)
 						cv2.putText(img, button.text, (x + 20, y + 65),cv2.FONT_HERSHEY_PLAIN, 4, (255, 255, 255), 4)
